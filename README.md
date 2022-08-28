@@ -3,6 +3,12 @@ backclinicaspring
 
 ```bash
 
+para clonar este repo
+
+git clone https://github.com/kevinm9/backclinicaspring.git
+
+cd backclinicaspring
+
 ---configuracion del properties
 
 cambiar los datos src/main/resources/application.properties
