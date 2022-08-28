@@ -20,13 +20,25 @@ usar su usuario y contraseña.
 ---fin
 al ejecutar la app se crean las tablas 
 
-para llenar la info puede ingresar datos desde la bd o 
-en el navegdor usar una sola  vez esta direccion
-http://localhost:8080/sql
 
 hace que se creen registro en la base de datos para poder visualizar y manipular en el front zk como prueba
  
 
+ejecutar la aplicacion situarse en la repo y ejecutar:
+
+mvn spring-boot:run
+
+
+para llenar la info puede ingresar datos desde la bd o 
+en el navegdor usar una sola  vez esta direccion
+
+http://localhost:8080/sql
+
+se mostrara este mensaje:
+
+sql ejecutado
+
+rutas 
 APIREST
 
 http://localhost:8080/doctor (get)
@@ -38,5 +50,8 @@ http://localhost:8080/reservacion (post) (get)
 
 controlador rest usado para validar la cedula del usuario en la bd oracle
 http://localhost:8080/paciente/cedula?cedula=1251251250 (get)
+
+
+
 
 ```
